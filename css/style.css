@@ -20,6 +20,10 @@ header, main, footer {
   padding-top: 8px;
 }
 
+.footer-social-icon {
+  padding: 8px;
+}
+
 section {
   min-height: 100vh;
 }
