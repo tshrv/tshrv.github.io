@@ -15,6 +15,11 @@ header, main, footer {
   z-index: 10;
 }
 
+.sidenav-social-icon {
+  width: 50px;
+  padding-top: 8px;
+}
+
 section {
   min-height: 100vh;
 }
