@@ -1,15 +1,13 @@
 $(document).ready(function(){
   $('.sidenav').sidenav();
-});
-
-$(document).ready(function(){
+  $('.tooltipped').tooltip();
   $('.materialboxed').materialbox();
+
 });
 
 function closeSidenav() {
-  $('.sidenav').sidenav('close');
+  var smallScreenMediaQuery = window.matchMedia("(max-width : 992px)");
+  if (smallScreenMediaQuery.matches){
+    $('.sidenav').sidenav('close');
+  }
 }
-
-$(document).ready(function(){
-  $('.tooltipped').tooltip();
-});
