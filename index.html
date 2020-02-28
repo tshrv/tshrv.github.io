@@ -52,13 +52,13 @@
       </span>
 
       <span class="col s4 m4 l4">
-      <a target="_blank" href="https://github.com/treetrails" class="white-text waves-effect waves-light sidenav-social-icon">
+      <a target="_blank" href="http://www.linkedin.com/in/tushar-ts" class="white-text waves-effect waves-light sidenav-social-icon">
         <i class="fab fa-linkedin-in fa-2x"></i>
       </a>
       </span>
 
       <span class="col s4 m4 l4">
-      <a target="_blank" href="https://github.com/treetrails" class="white-text waves-effect waves-light sidenav-social-icon">
+      <a target="_blank" href="http://www.instagram.com/lets.make.it.fun" class="white-text waves-effect waves-light sidenav-social-icon">
         <i class="fab fa-instagram fa-2x"></i>
       </a>
       </span>
@@ -70,13 +70,13 @@
   <!--  <li><a href="#!">Second Link</a></li>-->
   <!--  <li><div class="divider"></div></li>-->
   <!--  <li><a class="subheader">Subheader</a></li>-->
-  <li><a class="waves-effect waves-light white-text" href="#work-experience">Work Experience</a></li>
-  <li><a class="waves-effect waves-light white-text" href="#achievements">Achievements</a></li>
-  <li><a class="waves-effect waves-light white-text" href="#certifications">Certifications</a></li>
-  <li><a class="waves-effect waves-light white-text" href="#projects">Projects</a></li>
-  <li><a class="waves-effect waves-light white-text" href="#skills">Skills</a></li>
-  <li><a class="waves-effect waves-light white-text" href="#education">Education</a></li>
-  <li><a class="waves-effect waves-light white-text" href="#contact">Contact</a></li>
+  <li><a class="waves-effect waves-light white-text" onclick="closeSidenav()" href="#work-experience">Work Experience</a></li>
+  <li><a class="waves-effect waves-light white-text" onclick="closeSidenav()" href="#achievements">Achievements</a></li>
+  <li><a class="waves-effect waves-light white-text" onclick="closeSidenav()" href="#certifications">Certifications</a></li>
+  <li><a class="waves-effect waves-light white-text" onclick="closeSidenav()" href="#projects">Projects</a></li>
+  <li><a class="waves-effect waves-light white-text" onclick="closeSidenav()" href="#skills">Skills</a></li>
+  <li><a class="waves-effect waves-light white-text" onclick="closeSidenav()" href="#education">Education</a></li>
+  <li><a class="waves-effect waves-light white-text" onclick="closeSidenav()" href="#contact">Contact</a></li>
 </ul>
 
 <header>
@@ -92,7 +92,9 @@
         <h1 class="deep-purple-text text-darken-4 light hide-on-small-only">Hi ! <br> I'm Tushar.</h1>
         <h2 class="deep-purple-text text-darken-4 light hide-on-med-and-up">Hi ! <br> I'm Tushar.</h2>
         <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi blanditiis cum deleniti error eum ipsa iusto modi nam necessitatibus nesciunt odio optio pariatur quae qui, quod velit voluptas voluptatibus!</p>
+        <p>
+          <em>Life is short, you need <b>Python</b>.</em><br><br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi blanditiis cum deleniti error eum ipsa iusto modi nam necessitatibus nesciunt odio optio pariatur quae qui, quod velit voluptas voluptatibus!</p>
       </div>
     </section>
 
@@ -111,13 +113,19 @@
               <br>
               <small>Gurugram, HR, IN</small>
             </p>
-            <div class="chip deep-purple accent-3 white-text">Python</div>
-            <div class="chip deep-purple accent-3 white-text">Django</div>
-            <div class="chip deep-purple accent-3 white-text">Postgresql</div>
-            <div class="chip deep-purple accent-3 white-text">AWS Lambda</div>
-            <div class="chip deep-purple accent-3 white-text">Pandas</div>
-            <div class="chip deep-purple accent-3 white-text">Seaborn</div>
-            <div class="chip deep-purple accent-3 white-text">Matplotlib</div>
+
+            <small><b>
+            <a class="tech-stack deep-purple-text">Python</a>
+            <a class="tech-stack deep-purple-text">Django</a>
+            <a class="tech-stack deep-purple-text">Postgresql</a>
+            <a class="tech-stack deep-purple-text">AWS Lambda</a>
+            <a class="tech-stack deep-purple-text">Pandas</a>
+            <a class="tech-stack deep-purple-text">Seaborn</a>
+            <a class="tech-stack deep-purple-text">Matplotlib</a>
+            </b></small>
+            <br>
+            <br>
+
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam asperiores dolorem eaque eveniet fugit incidunt laudantium magnam necessitatibus nobis obcaecati odit, quam quasi recusandae, repellendus reprehenderit sint vitae voluptatem.
             </p>
@@ -133,9 +141,15 @@
               <br>
               <small>Gurugram, HR, IN</small>
             </p>
-            <div class="chip deep-purple accent-3 white-text">Java</div>
-            <div class="chip deep-purple accent-3 white-text">Spring</div>
-            <div class="chip deep-purple accent-3 white-text">Hibernate</div>
+
+            <small><b>
+            <a class="tech-stack deep-purple-text">Java</a>
+            <a class="tech-stack deep-purple-text">Spring</a>
+            <a class="tech-stack deep-purple-text">Hibernate</a>
+            </b></small>
+            <br>
+            <br>
+
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa dicta eaque esse facere illo iste, iusto libero placeat porro, possimus quae quaerat, quidem reiciendis rerum sequi sint voluptatem voluptatibus.</p>
             <!--            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>-->
           </li>
@@ -204,10 +218,18 @@
               <small>Noida, UP, IN</small>
             </p>
             <br>
-            <div class="chip lighten-1 deep-purple deep-purple-text text-lighten-1">*</div>Java<br>
-            <div class="chip lighten-2 deep-purple deep-purple-text text-lighten-2">*</div>Spring<br>
-            <div class="chip lighten-3 deep-purple deep-purple-text text-lighten-3">*</div>Hibernate<br>
-            <div class="chip lighten-4 deep-purple deep-purple-text text-lighten-4">*</div>SQL<br>
+            <small><b>
+            <a class="tech-stack deep-purple-text">Java</a>
+            <a class="tech-stack deep-purple-text">Spring</a>
+            <a class="tech-stack deep-purple-text">Hibernate</a>
+            <a class="tech-stack deep-purple-text">SQL</a>
+            </b></small>
+            <br>
+            <br>
+<!--            <div class="chip lighten-1 deep-purple deep-purple-text text-lighten-1">*</div>Java<br>-->
+<!--            <div class="chip lighten-2 deep-purple deep-purple-text text-lighten-2">*</div>Spring<br>-->
+<!--            <div class="chip lighten-3 deep-purple deep-purple-text text-lighten-3">*</div>Hibernate<br>-->
+<!--            <div class="chip lighten-4 deep-purple deep-purple-text text-lighten-4">*</div>SQL<br>-->
             <!--            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>-->
           </li>
         </ul>
@@ -222,104 +244,171 @@
         <br><br>
 
         <div>
-          <h4>CannonClone</h4>
+          <h4>Random phrases generator</h4>
 
           <p>
-          <div class="chip deep-purple accent-3 white-text">Angular</div>
-          <div class="chip deep-purple accent-3 white-text">Typescript</div>
-          <br>
+            <small><b>
+            <a class="tech-stack deep-purple-text">Angular</a>
+            <a class="tech-stack deep-purple-text">Typescript</a>
+            </b></small>
+            <br>
           A two-word random phrases generator from english language to help you get your next project name, codename,
           name your band, or simply just for fun and all those language lovers out there. There are available alliterations(sort of)
-          and mnemonics.</p>
-          <small><b>
-            <a class="project-link deep-purple-text" target="_blank" href="https://tusharsrivastava.com/cannon-clone-demo/">web</a>
-            <a class="project-link deep-purple-text" target="_blank" href="">github</a>
-            <a class="project-link deep-purple-text" target="_blank" href="">docs</a>
-          </b></small>
+          and mnemonics.
+          </p>
+          <span>
+           <a class="project-link-icon tooltipped"
+              data-position="bottom" data-tooltip="www"
+              target="_blank" href="https://tusharsrivastava.com/cannon-clone/">
+              <i class="fas fa-globe small"></i>
+            </a>
+            <a class="project-link-icon tooltipped"
+               data-position="bottom" data-tooltip="github"
+               target="_blank" href="https://github.com/treetrails/cannon-clone">
+              <i class="fab fa-github-alt small"></i>
+            </a>
+<!--            <a class="project-link-icon tooltipped"-->
+<!--               data-position="bottom" data-tooltip="docs"-->
+<!--               target="_blank" href="">-->
+<!--              <i class="far fa-file-alt small"></i>-->
+<!--            </a>-->
+          </span>
+
         </div>
         <br>
         <div>
-          <h4>BrightBulb</h4>
+          <h4>Notes</h4>
           <p>
-          <div class="chip deep-purple accent-3 white-text">Python</div>
-          <div class="chip deep-purple accent-3 white-text">Django</div>
+          <small><b>
+            <a class="tech-stack deep-purple-text">Python</a>
+            <a class="tech-stack deep-purple-text">Django</a>
+            </b></small>
           <br>
           A REST-ful backend for note-taking application protected with user authentication and authorization.</p>
-          <small><b>
-            <a href="" class="project-link deep-purple-text">web</a>
-            <a href="" class="project-link deep-purple-text">github</a>
-            <a href="" class="project-link deep-purple-text">docs</a>
-          </b></small>
+          <span>
+            <a class="project-link-icon tooltipped"
+               data-position="bottom" data-tooltip="www"
+               target="_blank" href="http://treetrails.herokuapp.com/brightbulb/">
+              <i class="fas fa-globe small"></i>
+            </a>
+            <a class="project-link-icon tooltipped"
+               data-position="bottom" data-tooltip="github"
+               target="_blank" href="https://github.com/treetrails/brightbulb">
+              <i class="fab fa-github-alt small"></i>
+            </a>
+            <a class="project-link-icon tooltipped"
+               data-position="bottom" data-tooltip="docs"
+               target="_blank" href="https://tusharsrivastava.me/brightbulb/">
+              <i class="far fa-file-alt small"></i>
+            </a>
+          </span>
         </div>
         <br>
         <div>
           <h4>Weather Forecasting</h4>
           <p>
-          <div class="chip deep-purple accent-3 white-text">Python</div>
-          <div class="chip deep-purple accent-3 white-text">Scikit Learn</div>
-          <div class="chip deep-purple accent-3 white-text">Pandas</div>
-          <div class="chip deep-purple accent-3 white-text">Matplotlib</div>
-          <br>
+          <small><b>
+            <a class="tech-stack deep-purple-text">Python</a>
+            <a class="tech-stack deep-purple-text">Scikit Learn</a>
+            <a class="tech-stack deep-purple-text">Pandas</a>
+            <a class="tech-stack deep-purple-text">Matplotlib</a>
+            </b></small>
+            <br>
           A regression model that makes minimum, average and maximum temperature predictions for New Delhi, IN.
           </p>
-          <small><b>
-            <a href="" class="project-link deep-purple-text">web</a>
-            <a href="" class="project-link deep-purple-text">github</a>
-            <a href="" class="project-link deep-purple-text">docs</a>
-          </b></small>
+          <span>
+           <a class="project-link-icon tooltipped"
+              data-position="bottom" data-tooltip="www"
+              target="_blank" href="http://treetrails.herokuapp.com/machinelearning/weatherforecast/">
+              <i class="fas fa-globe small"></i>
+            </a>
+            <a class="project-link-icon tooltipped"
+               data-position="bottom" data-tooltip="github"
+               target="_blank" href="https://github.com/treetrails/safesky">
+              <i class="fab fa-github-alt small"></i>
+            </a>
+            <a class="project-link-icon tooltipped"
+               data-position="bottom" data-tooltip="docs"
+               target="_blank" href="https://tusharsrivastava.me/safesky/">
+              <i class="far fa-file-alt small"></i>
+            </a>
+          </span>
         </div>
         <br>
         <div>
           <h4>Tribal Tourism</h4>
           <p>
-          <div class="chip deep-purple accent-3 white-text">Angular</div>
-          <div class="chip deep-purple accent-3 white-text">Python</div>
-          <div class="chip deep-purple accent-3 white-text">Django</div>
+          <small><b>
+            <a class="tech-stack deep-purple-text">Angular</a>
+            <a class="tech-stack deep-purple-text">Python</a>
+            <a class="tech-stack deep-purple-text">Django</a>
+            </b></small>
           <br>
           <b class="deep-purple-text text-accent-3">Smart India Hackathon 2018 - Ministry of Tribal Affairs</b>
           <br>
           A platform for the people of tribal India to showcase their culture and lifestyle to the rest of the world and use tourism for their earnings.
           </p>
-          <small><b>
-            <a href="" class="project-link deep-purple-text">web</a>
-            <a href="" class="project-link deep-purple-text">github</a>
-            <a href="" class="project-link deep-purple-text">docs</a>
-          </b></small>
+
+          <span>
+            <a class="project-link-icon project-link-icon-disabled tooltipped"
+               data-position="bottom" data-tooltip="github : unavailable : Intellectual property of Government of India"
+               target="_blank" href="#!">
+              <i class="fab fa-github-alt small"></i>
+            </a>
+          </span>
         </div>
         <br>
         <div>
           <h4>Virtual Tour of Railway Stations</h4>
           <p>
-          <div class="chip deep-purple accent-3 white-text">Angular</div>
-          <div class="chip deep-purple accent-3 white-text">Android</div>
-          <div class="chip deep-purple accent-3 white-text">Python</div>
-          <div class="chip deep-purple accent-3 white-text">Django</div>
+          <small><b>
+            <a class="tech-stack deep-purple-text">Angular</a>
+            <a class="tech-stack deep-purple-text">Android</a>
+            <a class="tech-stack deep-purple-text">Python</a>
+            <a class="tech-stack deep-purple-text">Django</a>
+            </b></small>
           <br>
           <b class="deep-purple-text text-accent-3">Smart India Hackathon 2017 - Ministry of Railways</b>
           <br>
           A constellation of 360° panoramas enabling tour of the railway station and navigate to facilities like Enquiry, IRCTC verified vendors, Divyang Facilities, etc. with integrated NTES services based on geographical coordinates of the user.
           </p>
-          <small><b>
-            <a href="" class="project-link deep-purple-text">web</a>
-            <a href="" class="project-link deep-purple-text">github</a>
-            <a href="" class="project-link deep-purple-text">docs</a>
-          </b></small>
+          <span>
+            <a class="project-link-icon project-link-icon-disabled tooltipped"
+               data-position="bottom" data-tooltip="github : unavailable : Intellectual property of Government of India"
+               target="_blank" href="#!">
+              <i class="fab fa-github-alt small"></i>
+            </a>
+          </span>
         </div>
         <br>
         <div>
           <h4>Blogging Platform</h4>
           <p>
-          <div class="chip deep-purple accent-3 white-text">Python</div>
-          <div class="chip deep-purple accent-3 white-text">Django</div>
-          <div class="chip deep-purple accent-3 white-text">Materialize CSS</div>
+          <small><b>
+            <a class="tech-stack deep-purple-text">Python</a>
+            <a class="tech-stack deep-purple-text">Django</a>
+            <a class="tech-stack deep-purple-text">Materialize CSS</a>
+            </b></small>
           <br>
           A platform for users to post content, update, comment on them, protected by authentication and authorization.
           </p>
-          <small><b>
-            <a href="" class="project-link deep-purple-text">web</a>
-            <a href="" class="project-link deep-purple-text">github</a>
-            <a href="" class="project-link deep-purple-text">docs</a>
-          </b></small>
+          <span>
+           <a class="project-link-icon tooltipped"
+              data-position="bottom" data-tooltip="www"
+              target="_blank" href="https://tsforum.herokuapp.com/">
+              <i class="fas fa-globe small"></i>
+            </a>
+            <a class="project-link-icon project-link-icon-disabled tooltipped"
+               data-position="bottom" data-tooltip="github: unavailable at the moment"
+               target="_blank" href="#!">
+              <i class="fab fa-github-alt small"></i>
+            </a>
+<!--            <a class="project-link-icon project-link-icon-disabled tooltipped"-->
+<!--               data-position="bottom" data-tooltip="docs: unavailable at the moment"-->
+<!--               target="_blank" href="#!">-->
+<!--              <i class="far fa-file-alt small"></i>-->
+<!--            </a>-->
+          </span>
         </div>
       </div>
 
@@ -453,75 +542,79 @@
         <div class="divider pink"></div>
         <br><br>
         <div class="row">
-          <div class="col">
-            <h6>
-              <i class="far fa-envelope fa-2x deep-purple-text text-accent-1"></i>
-            </h6>
-          </div>
-          <div class="col">
-            <h6>
-              <b class="deep-purple-text text-accent-3">email</b>
-              <br>
-              <a href="http://www.github.com/treetrails" target="_blank">tusharsrivastava162@gmail.com</a>
-            </h6>
-          </div>
+          <a href="mailto:tusharsrivastava162@gmail.com" target="_blank">
+            <div class="col">
+              <h6>
+                <i class="far fa-envelope fa-2x deep-purple-text text-accent-1"></i>
+              </h6>
+            </div>
+            <div class="col">
+              <h6>
+                <b class="deep-purple-text text-accent-3">email</b>
+                <br>
+                <small>
+                  tusharsrivastava162@gmail.com
+                </small>
+              </h6>
+            </div>
+          </a>
         </div>
 
         <div class="row">
-          <div class="col">
-            <h6>
-              <i class="fab fa-github-alt fa-2x deep-purple-text text-accent-1"></i>
-            </h6>
-          </div>
-          <div class="col">
-            <h6>
-              <b class="deep-purple-text text-accent-3">github</b>
-              &nbsp;&nbsp;
-              <a href="http://www.github.com/treetrails" target="_blank">@treetrails</a>
-              <br>
-              <small>
-                <a href="http://www.github.com/treetrails" target="_blank" class="light grey-text text-darken-2">http://www.github.com/treetrails</a>
-              </small>
-            </h6>
-          </div>
+          <a href="http://www.github.com/treetrails" target="_blank">
+            <div class="col">
+              <h6>
+                <i class="fab fa-github-alt fa-2x deep-purple-text text-accent-1"></i>
+              </h6>
+            </div>
+            <div class="col">
+              <h6>
+                <b class="deep-purple-text text-accent-3">github</b>
+                <br>
+                <small>
+                  @treetrails
+                </small>
+              </h6>
+            </div>
+          </a>
         </div>
 
         <div class="row">
-          <div class="col">
-            <h6>
-              <i class="fab fa-linkedin-in fa-2x deep-purple-text text-accent-1"></i>
-            </h6>
-          </div>
-          <div class="col">
-            <h6>
-              <b class="deep-purple-text text-accent-3">linkedin</b>
-              &nbsp;&nbsp;
-              <a href="http://www.linkedin.com/in/tushar-ts" target="_blank">@tushar-ts</a>
-              <br>
-              <small>
-                <a href="http://www.linkedin.com/in/tushar-ts" target="_blank" class="light grey-text text-darken-2">http://www.linkedin.com/in/tushar-ts</a>
-              </small>
-            </h6>
-          </div>
+          <a href="http://www.linkedin.com/in/tushar-ts" target="_blank">
+            <div class="col">
+              <h6>
+                <i class="fab fa-linkedin-in fa-2x deep-purple-text text-accent-1"></i>
+              </h6>
+            </div>
+            <div class="col">
+              <h6>
+                <b class="deep-purple-text text-accent-3">linkedin</b>
+                <br>
+                <small>
+                  @tushar-ts
+                </small>
+              </h6>
+            </div>
+          </a>
         </div>
 
         <div class="row">
-          <div class="col">
-            <h6>
-              <i class="fab fa-instagram fa-2x deep-purple-text text-accent-1"></i>
-            </h6>
-          </div>
-          <div class="col">
-            <h6>
-              <b class="deep-purple-text text-accent-3">instagram</b>
-              &nbsp;&nbsp;
-              <a href="http://www.instagram.com/lets.make.it.fun" target="_blank">@lets.make.it.fun</a>
-              <br>
-              <small>
-                <a href="http://www.instagram.com/lets.make.it.fun" target="_blank" class="light grey-text text-darken-2">http://www.instagram.com/lets.make.it.fun</a>
-              </small>
-            </h6>
-          </div>
+          <a href="http://www.instagram.com/lets.make.it.fun" target="_blank">
+            <div class="col">
+              <h6>
+                <i class="fab fa-instagram fa-2x deep-purple-text text-accent-1"></i>
+              </h6>
+            </div>
+            <div class="col">
+              <h6>
+                <b class="deep-purple-text text-accent-3">instagram</b>
+                <br>
+                <small>
+                  @lets.make.it.fun
+                </small>
+              </h6>
+            </div>
+          </a>
         </div>
       </div>
 
@@ -559,13 +652,13 @@
           </div>
 
           <div class="col s4 m4 l4">
-            <a target="_blank" href="https://github.com/treetrails" class="white-text waves-effect waves-light footer-social-icon">
+            <a target="_blank" href="http://www.linkedin.com/in/tushar-ts" class="white-text waves-effect waves-light footer-social-icon">
               <i class="fab fa-linkedin-in fa-2x"></i>
             </a>
           </div>
 
           <div class="col s4 m4 l4">
-            <a target="_blank" href="https://github.com/treetrails" class="white-text waves-effect waves-light footer-social-icon">
+            <a target="_blank" href="http://www.instagram.com/lets.make.it.fun" class="white-text waves-effect waves-light footer-social-icon">
               <i class="fab fa-instagram fa-2x"></i>
             </a>
           </div>

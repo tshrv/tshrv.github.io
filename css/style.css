@@ -36,10 +36,20 @@ section {
 /*}*/
 
 
-.project-link {
+.tech-stack {
   padding: 5px 10px 5px 10px; !important;
   border: 1px solid #651fff;
   margin-right: 10px;
+  line-height: 50px;
+}
+
+.project-link-icon {
+  margin-right: 20px;
+  color: #7e57c2;
+}
+
+.project-link-icon-disabled {
+  color: #9e9e9e;
 }
 
 .padding-bottom-40 {
@@ -53,5 +63,8 @@ section {
 @media only screen and (max-width : 992px) {
   header, main, footer {
     padding-left: 0;
+  }
+  section {
+    padding-top: 30px;
   }
 }
