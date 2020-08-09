@@ -1,0 +1,19 @@
+/* ---------------------------------------------------------------------------------------
+ * defaults
+ */
+body {
+  min-height: 100vh;
+}
+p, h1, h2, h3, h4, h5, h6, span, div, button, a, .btn {
+  font-family: 'Montserrat', sans-serif; !important;
+}
+
+
+.navbar .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+#hero-image {
+  width: 2000px;
+}

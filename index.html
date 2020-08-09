@@ -1,26 +1,123 @@
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="">
+
 <head>
   <meta charset="utf-8">
-  <title>Letsmakeitfun</title>
-  <base href="/">
+  <title></title>
+  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <!-- bootstrap css -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-  <!-- font-awesome icon library -->
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="theme-color" content="#fafafa">
+
+  <!-- bootstrap 4.5.2 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- typeface -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- font-awesome -->
   <script src="https://kit.fontawesome.com/93f65347e1.js" crossorigin="anonymous"></script>
+</head>
 
-  <!-- google web fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.057cd51e308e467219af.css"></head>
-<body>
-<app-root></app-root>
+<body class="d-flex flex-column">
+<header>
+  <!-- navbar -->
+  <nav class="navbar sticky-top navbar-expand-md navbar-light bg-white pt-md-3 pb-md-3">
+    <div class="container">
+      <a class="navbar-brand text-primary" href="#">letsmakeitfun.</a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <!--      <span class="navbar-toggler-icon"></span>-->
+        <i class="fas fa-bars"></i>
+      </button>
 
-<!-- scripts -->
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" target="_blank">work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="https://dev.to/letsmakeitfun" target="_blank">blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:hello@tusharsrivastava.me">contact</a>
+          </li>
+          <li class="nav-item d-flex flex-row">
+            <a class="nav-link pr-3 pr-md-2" href="https://dev.to/letsmakeitfun" target="_blank">
+              <i class="fab fa-dev fa-2x"></i>
+            </a>
+            <!--        </li>-->
+            <!--        <li class="nav-item">-->
+            <a class="nav-link pr-3 pr-md-2" href="https://github.com/letsmakeitfun" target="_blank">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            <!--        </li>-->
+            <!--        <li class="nav-item">-->
+            <a class="nav-link pr-3 pr-md-2" href="https://www.instagram.com/lets.make.it.fun/" target="_blank">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!-- endnavbar -->
+</header>
+
+<main class="container d-flex flex-grow-1 flex-column flex-md-row">
+  <section class="d-flex flex-column align-self-center p-3 p-md-2 flex-grow-1 justify-content-center">
+    <h1 class="font-weight-normal">I'm <span class="font-weight-bold">Tushar</span> Srivastava</h1>
+    <h3 class="font-weight-normal text-primary">Software Engineer</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fugit ipsam porro quam quia recusandae saepe. Aut facere impedit magnam quibusdam similique unde veritatis? Dolorem eum fuga officiis provident sed.
+    </p>
+    <div>
+      <a href="#" target="_blank" class="btn btn-outline-primary rounded-0 font-weight-bold">see my work</a>
+    </div>
+  </section>
+<!--  <section class="align-self-center d-none d-md-flex">-->
+  <section class="align-self-center p-3 p-md-2">
+    <img class="img-fluid" src="img/undraw_programming_2svr.svg" alt="hero-image" id="hero-image">
+  </section>
+</main>
+
+<!-- footer -->
+<footer>
+  <div class="navbar navbar-light bg-white pt-4 pb-4">
+    <div class="container justify-content-start">
+      <span class="small">
+        want to get in touch?
+        <a href="mailto:hello@tusharsrivastava.me" class="text-primary font-weight-bold">say hi</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+
+<!-- jquery 3.5.1 -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src="runtime.e227d1a0e31cbccbf8ec.js" defer></script><script src="polyfills.a4021de53358bb0fec14.js" defer></script><script src="main.94194dfad723cffe5f31.js" defer></script></body>
+<!-- popperjs 1.16.1 -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<!-- bootstrap 4.5.2 -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
 </html>

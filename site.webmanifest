@@ -1,0 +1,12 @@
+{
+  "short_name": "letsmakeitfun",
+  "name": "Tushar Srivastava",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#007BFF"
+}
