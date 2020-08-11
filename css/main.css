@@ -1,19 +1,14 @@
-/* ---------------------------------------------------------------------------------------
- * defaults
- */
+html {
+  scroll-behavior: smooth; }
+
 body {
-  min-height: 100vh;
-}
-p, h1, h2, h3, h4, h5, h6, span, div, button, a, .btn {
-  font-family: 'Montserrat', sans-serif; !important;
-}
+  min-height: 90vh; }
 
+.navbar .navbar-toggler {
+  border: 0;
+  color: #003166; }
 
-.navbar .nav-item {
-  display: flex;
-  align-items: center;
-}
+.pointer {
+  cursor: pointer; }
 
-#hero-image {
-  width: 2000px;
-}
+/*# sourceMappingURL=main.css.map */
