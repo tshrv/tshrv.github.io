@@ -3,19 +3,26 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
-  min-height: 90vh;
+  min-height: 100vh !important;
 }
 
-.navbar .navbar-toggler {
-  border: 0;
-  color: $secondary_color;
+#display-image {
+  max-width: 250px;
+  border: 2px solid darkslategrey;
+  border-radius: 10% 50% 50% 50%;
 }
 
-.pointer {
-  cursor: pointer;
+
+#introduction-text {
+  max-width: 90vw;
 }
 
 @media (min-width: 768px) {
-  // medium and further
+  #introduction-text {
+    max-width: 500px !important;
+    //max-width: 30vw !important;
+  }
 }
+

@@ -22,160 +22,33 @@
   <meta name="theme-color" content="#fafafa">
 
   <!-- typeface -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<!--  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">-->
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
   <!-- font-awesome -->
   <script src="https://kit.fontawesome.com/93f65347e1.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="d-flex flex-column">
+<body class="d-flex bg-light">
 
-<!-- navbar -->
-<nav class="navbar sticky-top navbar-expand-md navbar-light bg-white pt-md-3 pb-md-3 d-block">
-  <div class="container">
-    <a class="navbar-brand text-primary" href="#" >letsmakeitfun.</a>
-    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbar-content">
-      <ul class="navbar-nav ml-auto d-flex align-items-end align-items-md-center">
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="collapse in" data-target=".navbar-collapse" href="#work">work</a>
-        </li>
-        <li class="nav-item">
-<!--          <a class="nav-link" href="https://dev.to/letsmakeitfun" target="_blank">blog</a>-->
-          <a class="nav-link" data-toggle="collapse in" data-target=".navbar-collapse" href="#blog">blog</a>
-        </li>
-        <li class="nav-item" >
-          <a class="nav-link" href="#contact" >contact</a>
-        </li>
-        <li class="nav-item d-flex flex-row">
-          <a class="nav-link pl-3 pl-md-2" href="https://dev.to/letsmakeitfun" target="_blank">
-            <i class="fab fa-dev fa-2x"></i>
-          </a>
-          <!--        </li>-->
-          <!--        <li class="nav-item">-->
-          <a class="nav-link pl-3 pl-md-2" href="https://github.com/letsmakeitfun" target="_blank">
-            <i class="fab fa-github fa-2x"></i>
-          </a>
-          <!--        </li>-->
-          <!--        <li class="nav-item">-->
-          <a class="nav-link pl-3 pl-md-2" href="https://www.instagram.com/lets.make.it.fun/" target="_blank">
-            <i class="fab fa-instagram fa-2x"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-
+<main class="container flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+  <img class="img-fluid" src="img/display-image.png" alt="Display Picture" id="display-image">
+  <h1 class="text-center mt-4"><span class="font-weight-bold">Tushar</span> Srivastava</h1>
+  <div class="text-center mt-1" id="introduction-text">
+    <p class="lead">
+      I'm a <span class="font-weight-bold text-primary">Software Engineer</span>, living in Lucknow, Uttar Pradesh, India.
+      <br>
+      I write about computer science concepts and implementations at
+      <a href="https://dev.to/letsmakeitfun" target="_blank" class="font-weight-bold">dev.to</a>
+      <br>
+      If you're into back-end engineering, I have some code snippets at
+      <a href="https://dev.to/letsmakeitfun" target="_blank" class="font-weight-bold">github gist</a>
+      which maybe helpful.
+      <br>
+      Reach out at <a href="mailto:hello@tusharsrivastava.me" class="font-weight-bold">hello@tusharsrivastava.me</a>
+    </p>
   </div>
-</nav>
-<!-- endnavbar -->
-
-<main class="container d-flex flex-grow-1 flex-column">
-  <section class="d-flex flex-column flex-md-row align-self-center pt-3 w-100">
-    <div class="align-self-center pt-md-4">
-      <h1 class="font-weight-normal">I'm <span class="font-weight-bold">Tushar</span> Srivastava</h1>
-      <h3 class="font-weight-normal text-primary">Software Engineer</h3>
-
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fugit ipsam porro quam quia recusandae saepe. Aut facere impedit magnam quibusdam similique unde veritatis? Dolorem eum fuga officiis provident sed.
-      </p>
-<!--      <div>-->
-<!--        <a href="#" target="_blank" class="btn btn-outline-primary rounded-0 font-weight-bold">see my work</a>-->
-<!--      </div>-->
-
-    </div>
-    <div class="align-self-center flex-grow-1 pt-md-4">
-      <img class="img-fluid" src="img/undraw_programming.svg" alt="hero-image" id="hero-image">
-    </div>
-  </section>
-
-  <section id="work" class="d-flex flex-column align-self-center pt-5 w-100">
-    <h2 class="h2 font-weight-bold text-dark mb-4">work.</h2>
-    <div id="accordion">
-      <div class="mb-2">
-        <a class="text-primary pointer" id="headingZero" data-toggle="collapse" data-target="#collapseZero" aria-expanded="false" aria-controls="collapseZero">
-          <i class="fas fa-angle-right"></i>
-          Technology Lead @ HeapCraft
-          <span class="bg-dark font-weight-bold small text-light p-1 rounded">present</span>
-        </a>
-
-        <div id="collapseZero" class="collapse" aria-labelledby="headingZero" data-parent="#accordion">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt doloremque fugit iste nesciunt numquam odit reiciendis suscipit! Aliquid architecto assumenda cum dignissimos distinctio dolores explicabo, illum officiis? Libero, optio, voluptas?
-          </p>
-        </div>
-      </div>
-      <div class="mb-2">
-        <a class="text-primary pointer" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          <i class="fas fa-angle-right"></i>
-          Backend Enginner @ HireXP
-        </a>
-
-        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt doloremque fugit iste nesciunt numquam odit reiciendis suscipit! Aliquid architecto assumenda cum dignissimos distinctio dolores explicabo, illum officiis? Libero, optio, voluptas?
-          </p>
-        </div>
-      </div>
-
-      <div class="mb-2">
-        <a class="text-primary pointer" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          <i class="fas fa-angle-right"></i>
-          Associate Software Engineer @ Nucleus Software Exports Ltd.
-        </a>
-
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad delectus dignissimos eum provident quaerat quibusdam rem soluta. Corporis doloribus impedit laborum maiores minima praesentium ratione reiciendis saepe, sint tempora velit.
-          </p>
-        </div>
-      </div>
-
-      <div class="mb-2">
-        <a class="text-primary pointer" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          <i class="fas fa-angle-right"></i>
-          Winner @ Smart India Hackathon 2017, Ministry of Railways, Government of India
-        </a>
-
-        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consectetur consequatur harum hic ipsam molestias nobis placeat quibusdam rerum! Autem maiores odio placeat vitae voluptatem. Dolores praesentium repellendus rerum voluptate.
-          </p>
-        </div>
-      </div>
-
-
-    </div>
-  </section>
-
-  <section id="blog" class="d-flex flex-column align-self-center pt-5 w-100">
-    <h2 class="h2 font-weight-bold text-dark mb-4">blog.</h2>
-    <p>
-      I write about software engineering in general and a lot about python and django on <a href="#">@thepracticaldev</a>.
-      Give it a try, you'll definitely find something you'll like.
-    </p>
-  </section>
-
-  <section id="contact" class="d-flex flex-column align-self-center pt-5 w-100">
-    <h2 class="h2 font-weight-bold text-dark mb-4">contact.</h2>
-    <p>
-      You can send me an email at <a href="mailto:hello@tusharsrivastava.me">hello@tusharsrivastava.me</a>.
-    </p>
-  </section>
-
 </main>
-
-<!-- footer -->
-<footer>
-  <div class="navbar navbar-light bg-white pt-4 pb-4">
-    <div class="container justify-content-start">
-      <span class="small">
-        Copyright 2020. All rights reserved.
-      </span>
-    </div>
-  </div>
-</footer>
 
 
 <!-- jquery 3.5.1 -->
