@@ -1,8 +1,27 @@
+* {
+  font-family: 'JetBrains Mono', monospace; }
+
+.font-passion-one {
+  font-family: 'Passion One', cursive !important; }
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif; !important;}
+
 html {
   scroll-behavior: smooth; }
 
 body {
   min-height: 100vh !important; }
+
+.bg-default {
+  /*background-color:#feffef !important; }*/
+  background-color:#ffffff !important; }
+
+.chip {
+  }
+
+section {
+  min-height: 100vh; }
 
 #display-image {
   max-width: 250px;
@@ -11,6 +30,12 @@ body {
 
 #introduction-text {
   max-width: 90vw; }
+
+.link-hover:hover {
+  color: #ffffff !important;
+  font-weight: bolder;
+  max-width: none !important;
+  background-color: #000000 !important; }
 
 @media (min-width: 768px) {
   #introduction-text {
