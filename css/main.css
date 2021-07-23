@@ -1,44 +1,46 @@
+.cascadia-code {
+  font-family: "cascadia-code";
+}
+.cascadia-code-italic {
+  font-family: "cascadia-code-italic";
+}
+
 * {
-  font-family: 'JetBrains Mono', monospace; }
-
-.font-passion-one {
-  font-family: 'Passion One', cursive !important; }
-
-.font-roboto {
-  font-family: 'Roboto', sans-serif; !important;}
+  font-family: "cascadia-code";
+}
 
 html {
-  scroll-behavior: smooth; }
-
-body {
-  min-height: 100vh !important; }
+  scroll-behavior: smooth;
+}
 
 .bg-default {
-  /*background-color:#feffef !important; }*/
-  background-color:#ffffff !important; }
-
-.chip {
-  }
-
-section {
-  min-height: 100vh; }
-
-#display-image {
-  max-width: 250px;
-  border: 2px solid darkslategrey;
-  border-radius: 10% 50% 50% 50%; }
-
-#introduction-text {
-  max-width: 90vw; }
+  background-color:#ffffff !important;
+}
 
 .link-hover:hover {
-  color: #ffffff !important;
   font-weight: bolder;
-  max-width: none !important;
-  background-color: #000000 !important; }
+}
+
+.color-prim, link-prim {
+  color: #536DFE;
+}
+
+.bg-prim {
+  background-color: #536DFE;
+  color: #ffffff;
+}
+#hero-image{
+  max-width: 80vw;
+}
+
+body {
+  border-left: 10px solid #536DFE;
+}
 
 @media (min-width: 768px) {
-  #introduction-text {
-    max-width: 500px !important; } }
+  #hero-image{
+    max-width: 30vw;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
