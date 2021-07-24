@@ -1,46 +1,50 @@
+/* tag */
+* {
+  font-family: "cascadia-code";
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* id */
+#hero-image{
+  max-width: 80vw;
+}
+
+
+
+/* class */
+
 .cascadia-code {
   font-family: "cascadia-code";
 }
 .cascadia-code-italic {
   font-family: "cascadia-code-italic";
 }
-
-* {
-  font-family: "cascadia-code";
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
 .bg-default {
   background-color:#ffffff !important;
 }
-
 .link-hover:hover {
   font-weight: bolder;
 }
-
-.color-prim, link-prim {
+.color-prim, .link-prim {
   color: #536DFE;
 }
-
 .bg-prim {
   background-color: #536DFE;
   color: #ffffff;
 }
-#hero-image{
-  max-width: 80vw;
-}
 
-body {
-  border-left: 10px solid #536DFE;
-}
 
 @media (min-width: 768px) {
+/* tag */
+
+/* id */
   #hero-image{
     max-width: 30vw;
   }
+
+/* class */
 }
 
 /*# sourceMappingURL=main.css.map */

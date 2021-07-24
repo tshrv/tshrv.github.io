@@ -23,7 +23,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <meta name="theme-color" content="#fafafa">
 
-
   <style>
     @font-face {
       font-family: "cascadia-code";
@@ -34,15 +33,16 @@
         src: url("fonts/CascadiaCodeItalic.ttf");
     }
   </style>
+
   <!-- font-awesome -->
   <script src="https://kit.fontawesome.com/93f65347e1.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="bg-default">
-<header>
+<header class="p-3 p-md-5">
   <nav class="navbar navbar-light bg-none">
-    <div class="container p-2 p-md-3 pl-md-5">
-      <a class="navbar-brand cascadia-code-italic">tshrv.</a>
+    <div class="container-fluid d-flex justify-content-center">
+      <a class="navbar-brand cascadia-code-italic" href="#">tshrv.</a>
     </div>
   </nav>
 </header>
@@ -63,14 +63,28 @@
         <a href="#" class="link-prim">contact</a> me.<br>
       </p>
     </div>
-    <div class="d-flex flex-column p-5 align-items-center" id="hero-image-div">
+    <div class="d-flex flex-column p-3 p-md-5 align-items-center" id="hero-image-div">
       <img src="img/undraw_Problem_solving.svg" alt="hero-image" id="hero-image">
     </div>
   </section>
 </main>
 
-<footer class="container p-3 p-md-5 d-flex flex-column align-content-stretch justify-content-center">
-  <p class="cascadia-code-italic text-center">
+<footer class="container p-5 d-flex flex-column align-items-center justify-content-center">
+  <p class="lead p-3">
+    <a class="p-2 color-prim" href="https://www.linkedin.com/in/tshrv/" target="_blank">
+      <i class="fab fa-linkedin fa-lg"
+      data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin"></i></a>
+    <a class="p-2 color-prim" href="https://dev.to/tshrv" target="_blank">
+      <i class="fab fa-dev fa-lg"
+      data-bs-toggle="tooltip" data-bs-placement="top" title="Dev"></i></a>
+    <a class="p-2 color-prim" href="https://github.com/tshrv/" target="_blank">
+      <i class="fab fa-github fa-lg"
+      data-bs-toggle="tooltip" data-bs-placement="top" title="Github"></i></a>
+    <a class="p-2 color-prim" href="mailto:tusharsrivastava162@gmail.com" target="_blank">
+      <i class="fas fa-envelope fa-lg"
+      data-bs-toggle="tooltip" data-bs-placement="top" title="Email"></i></a>
+  </p>
+  <p class=" text-center small">
     © tshrv 2021
   </p>
 </footer>
