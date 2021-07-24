@@ -1,5 +1,5 @@
 {
-  "short_name": "TSHRV.",
+  "short_name": "tshrv.",
   "name": "Tushar Srivastava",
   "icons": [{
     "src": "icon.png",
@@ -8,5 +8,5 @@
   }],
   "start_url": "/",
   "background_color": "#ffffff",
-  "theme_color": "#007BFF"
+  "theme_color": "#536DFE"
 }

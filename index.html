@@ -9,9 +9,8 @@
 
   <meta property="og:title" content="Tushar Srivastava">
   <meta property="og:type" content="website">
-  <meta property="og:description" content="Software Engineer based in India." />
+  <meta property="og:description" content="Software Engineer specialized in backend engineering, deep leaning and machine learning" />
   <meta property="og:url" content="https://tshrv.in">
-  <meta property="og:image" content="https://tshrv.in/img/display-image.png">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="favicon.svg">
@@ -23,129 +22,70 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <meta name="theme-color" content="#fafafa">
 
-  <!-- typeface -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto&family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: "cascadia-code";
+      src: url("fonts/CascadiaCode.ttf");
+    }
+    @font-face {
+        font-family: "cascadia-code-italic";
+        src: url("fonts/CascadiaCodeItalic.ttf");
+    }
+  </style>
 
   <!-- font-awesome -->
   <script src="https://kit.fontawesome.com/93f65347e1.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="bg-default">
-<header>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-default">
-    <div class="container">
-      <a class="navbar-brand font-passion-one link-hover p-2" href="#">TSHRV.</a>
-      <a class="navbar-toggler btn border-0 text-dark" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i id="navbar-open-icon" class="fas fa-bars"></i>
-        <i id="navbar-close-icon" class="fas fa-times visually-hidden"></i>
-      </a>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link link-hover p-2" href="#work">work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-hover p-2" href="#contact">contact</a>
-          </li>
-          <li class="nav-item d-flex flex-row">
-            <a class="nav-link link-hover p-2" href="https://github.com/tshrv/" target="_blank">
-              <i class="fab fa-github fa-lg"></i>
-            </a>
-            <a class="nav-link link-hover p-2" href="https://www.linkedin.com/in/tshrv/" target="_blank">
-              <i class="fab fa-linkedin fa-lg"></i>
-            </a>
-            <a class="nav-link link-hover p-2" href="https://dev.to/tshrv" target="_blank">
-              <i class="fab fa-dev fa-lg"></i>
-            </a>
-            <a class="nav-link link-hover p-2" href="mailto:tusharsrivastava162@gmail.com" target="_blank">
-              <i class="fas fa-envelope fa-lg"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
+<header class="p-3 p-md-5">
+  <nav class="navbar navbar-light bg-none">
+    <div class="container-fluid d-flex justify-content-center">
+      <a class="navbar-brand cascadia-code-italic" href="https://tshrv.in">tshrv.</a>
     </div>
   </nav>
 </header>
 
 <main>
-  <section class="container flex-grow-1 d-flex flex-column-reverse flex-md-row align-items-center justify-content-center"
-           id="home">
-    <div class="d-flex flex-column m-5">
-      <h1 class="mt-4 font-passion-one display-3"><span class="font-weight-bold font-passion-one">Tushar</span> Srivastava</h1>
-      <div class="mt-1" id="introduction-text">
-        <p class="lead font-roboto">
-          नमस्ते
-          <span class="small font-roboto fst-italic">Namaste</span>
-        </p>
-        <p class="">
-          I'm a <span class="fw-bold">Software Engineer</span>, based in <span class="fw-bold">INDIA</span>.
-<!--          <br>-->
-<!--          Experience in-->
-<!--          <span class="text-decoration-underline">requirement analysis</span>,-->
-<!--          <span class="text-decoration-underline">design</span>,-->
-<!--          <span class="text-decoration-underline">development</span> &-->
-<!--          <span class="text-decoration-underline">deployment</span>.-->
-        </p>
-      </div>
+  <section class="container d-flex flex-column" id="home">
+    <div class="d-flex flex-column p-3 p-md-5" id="intro-text">
+      <p class="lead">
+        <span class="cascadia-code-italic">
+          Hey! I'm <b class="cascadia-code-italic">Tushar Srivastava</b>
+        </span>
+        <a class="color-prim" href="https://www.linkedin.com/in/tshrv/" target="_blank"><b>@tshrv</b></a><br>
+      </p>
+      <p>
+        Software Engineer from India, building APIs and data systems using Deep Learning/Machine Learning, distributed systems, SQL and NoSQL databases, Docker, Python and modern backend frameworks, working with different teams and organizations across North America and Asia.
+        <br>
+        <br>
+        If you're into software engineering, I have some <a href="https://dev.to/tshrv" class="link-prim" target="_blank">write-ups</a> and <a href="https://gist.github.com/tshrv" class="link-prim" target="_blank">gists</a> that might come in handy, and also, you can follow my <a href="https://github.com/tshrv" class="link-prim" target="_blank">contributions</a> to open source and other hobby projects.
+        <br>
+        <br>
+        I'm helping a limited number of teams and organizations as an external consultant. If you would like to have my help with your team and product, feel free to
+        <a href="mailto:tusharsrivastava162@gmail.com" class="link-prim" target="_blank">contact</a> me.<br>
+      </p>
     </div>
-    <div class="d-flex">
-      <img class="img-fluid" src="img/display-image.png" alt="Display Picture" id="display-image">
-    </div>
-  </section>
-
-  <section class="mt-sm-5 mt-md-0 container flex-grow-1 d-flex flex-row align-items-center justify-content-start"
-           id="work">
-    <div class="d-flex flex-column">
-      <h4 class="fw-bold mt-4 mb-4">Work.</h4>
-      <!--      <h2 class="mt-4 mb-4 font-passion-one">Teams I've worked with</h2>-->
-      <div class="d-flex flex-column">
-        <h6 class="fw-bold text-decoration-underline">Freelance Software Engineer</h6>
-        <p class="small">
-          Building solutions for critical problems for clients.
-          <a href="https://www.linkedin.com/in/tshrv/" target="_blank"><span class="small">learn more</span></a>
-        </p>
-        <h6 class="fw-bold text-decoration-underline">
-          Associate Software Engineer @
-          <a href="https://hirexp.com" target="_blank">Hirexp</a>
-        </h6>
-        <p class="small">
-          A product based tech startup in
-          <a href="https://www.amara.ai" target="_blank">employee/customer engagement</a> &
-          <a href="https://www.hirexp.com" target="_blank">application tracking system</a>,
-          operating from <b>Gurugram, HR, INDIA.</b><br>
-        </p>
-        <h6 class="fw-bold text-decoration-underline">Intern @
-          <a href="https://www.nucleussoftware.com/" target="_blank">Nucleus Software Exports Ltd.</a></h6>
-        <p class="small">
-          An Indian IT company in the Banking and Financial Services sector having its headquarters in <b>Noida, UP, INDIA</b>.
-        </p>
-
-      </div>
-    </div>
-
-  </section>
-
-  <section class="container flex-grow-1 d-flex flex-column align-items-center justify-content-center"
-           id="contact">
-    <h5 class="mt-4 mb-4">Liked what you saw?</h5>
-    <a href="mailto:tusharsrivastava162@gmail.com" class="link-hover p-2 text-decoration-none border border-dark border-2 text-dark m-2 fw-bold">Get in touch</a>
-    <div class="m-4">
-      <a class="text-decoration-none text-dark link-hover p-2" href="https://github.com/tshrv/" target="_blank"><i class="fab fa-github fa-lg"></i></a>
-      <a class="text-decoration-none text-dark link-hover p-2" href="https://www.linkedin.com/in/tshrv/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
-      <a class="text-decoration-none text-dark link-hover p-2" href="https://dev.to/tshrv" target="_blank"><i class="fab fa-dev fa-lg"></i></a>
-      <a class="text-decoration-none text-dark  link-hover p-2" href="mailto:tusharsrivastava162@gmail.com" target="_blank"><i class="fas fa-envelope fa-lg"></i></a>
+    <div class="d-flex flex-column p-3 p-md-5 align-items-center" id="hero-image-div">
+      <img src="img/undraw_Problem_solving.svg" alt="hero-image" id="hero-image">
     </div>
   </section>
-
 </main>
 
-<footer class="p-3 small text-center">
-  <div class="container">
-    © TSHRV 2021
-  </div>
+<footer class="container-fluid p-5 d-flex flex-column align-items-center justify-content-center">
+  <p class="lead p-3">
+    <a class="p-2 color-prim" href="https://www.linkedin.com/in/tshrv/" target="_blank">
+      <i class="fab fa-linkedin fa-lg"></i></a>
+    <a class="p-2 color-prim" href="https://dev.to/tshrv" target="_blank">
+      <i class="fab fa-dev fa-lg"></i></a>
+    <a class="p-2 color-prim" href="https://github.com/tshrv/" target="_blank">
+      <i class="fab fa-github fa-lg"></i></a>
+    <a class="p-2 color-prim" href="mailto:tusharsrivastava162@gmail.com" target="_blank">
+      <i class="fas fa-envelope fa-lg"></i></a>
+  </p>
+  <p class=" text-center small">
+    © tshrv 2021
+  </p>
 </footer>
 
 <!-- JQuery -->
