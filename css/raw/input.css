@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .social-link {
+        @apply hover:text-red-500 font-semibold;
+    }
+  }
