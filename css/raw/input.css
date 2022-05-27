@@ -4,6 +4,6 @@
 
 @layer base {
     .social-link {
-        @apply mr-3 font-semibold hover:text-red-500;
+        @apply font-semibold hover:text-red-500;
     }
   }
