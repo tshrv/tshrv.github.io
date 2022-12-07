@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Source Sans Pro', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        'sans': ['Inter', 'Source Sans Pro', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       }
     },
     
