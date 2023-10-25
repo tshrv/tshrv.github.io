@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;  
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,9 +19,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-image: url('/blobanimation.svg');
-  /* background-size: cover;
-  background-repeat: no-repeat; */
+  /* background-size: 100;
+  background-position: center;
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
+  background-image: url('/blobanimation.svg'); */
   background: linear-gradient(
       to bottom,
       transparent,
