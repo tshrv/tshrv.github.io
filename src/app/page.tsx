@@ -1,101 +1,68 @@
-import Image from 'next/image'
-
-function Logo() {
-  return (
-    <a href="/" className='cursor-pointer'>
-      <Image
-        src="/logo.svg"
-        alt="TusharSrivastava.com"
-        className="dark:invert"
-        width={40}
-        height={24}
-        priority
-      />
-    </a>
-    
-  )
-}
-
-interface NavbarLinkItemProps {
-  label: string
-  targetLink: string
-}
-
-function NavbarLinkItem(props: NavbarLinkItemProps) {
-  const { label, targetLink } = props
-  return (
-    <li className='font-medium hover:underline hover:decoration-black hover:decoration-2 cursor-pointer'>
-      <a href={targetLink} target='_blank'>{label}</a>
-    </li>
-  )
-}
-
-function NavbarLinks() {
-  return (
-    <ul className='flex flex-row items-center gap-x-8'>
-      <NavbarLinkItem label="Email" targetLink="mailto:tusharsrivastava162@gmail.com" />
-      <NavbarLinkItem label="LinkedIn" targetLink="https://www.linkedin.com/in/tshrv/" />
-      <NavbarLinkItem label="Github" targetLink="https://github.com/tshrv" />
-    </ul>
-  )
-}
-
-function Navbar() {
-  return (
-    <nav className='flex flex-row justify-between'>
-      <Logo/>
-      <NavbarLinks/>
-    </nav>
-  )
-}
-
-function Title() {
-  return (
-    <div className='flex flex-col justify-center text-6xl font-light'>
-      <Image
-        src="/ts-photo.jpg"
-        alt="TusharSrivastava.com"
-        className="dark:invert shadow-sm pb-3"
-        width={250}
-        height={24}
-        priority
-      />
-      <span className='font-black'>TUSHAR</span>
-      <span className=''>SRIVASTAVA</span>
-    </div>
-  )
-}
-
-function Tagline() {
-  return (
-    <div className='flex flex-col justify-center items-end text-right'>
-      <span className='text-lg font-black'>OPEN SOURCE ENTHUSIAST</span>
-      <span className='text-3xl font-light'>Transforming ideas into<br/>digital realities...</span>
-    </div>
-  )
-}
-
-function Footer() {
-  return (
-    <div className='text-xs font-light'>
-      <span>© 2023 Tushar Srivastava. All Rights Reserved.</span>
-    </div>
-  )
-}
-
+import Image from "next/image";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Home() {
   return (
-    <>
-      <main className="w-screen min-h-screen flex flex-col items-center">
-        <div className='flex flex-col grow w-4/6 p-12'>
-          <Navbar/>
-          <div className='grow flex flex-row justify-between'>
-            <Title/>
-            <Tagline/>    
+    <main className="flex max-w-4xl flex-col m-auto min-h-screen justify-between">
+      <div className="p-4 text-center mt-4 font-bold">
+        <p>Transforming ideas into digital realities.</p>
+      </div>
+      <div className="hero">
+        <div className="hero-content flex-col lg:flex-row-reverse">
+          <Image
+            src="/profile-picture.jpg"
+            className="max-w-sm grayscale rounded-lg shadow-2xl"
+            alt="Headshot"
+            height={300}
+            width={300}
+          />
+          <div className="flex flex-col gap-y-4">
+            <h1 className="text-5xl font-bold">Tushar Srivastava</h1>
+            <p className="text-xl font-bold">
+              Lead Software Engineer at <span> </span>
+              <a
+                className="hover:underline"
+                href="https://neuralix.ai"
+                target="_blank"
+              >
+                Neuralix.AI
+              </a>
+            </p>
+            <p className="py-6">
+              Solution Architect and Full-stack Python and React Developer with
+              6 years of experience in backend, frontend and data science
+              technologies, working with core product engineering teams on
+              data-intensive products and pipelines, across a diverse set of
+              domains.
+            </p>
+            <div className="flex ">
+              <a
+                className="btn btn-circle btn-ghost"
+                href="https://github.com/tshrv"
+                target="_blank"
+              >
+                <FaGithub className="text-3xl" />
+              </a>
+              <a
+                className="btn btn-circle btn-ghost"
+                href="https://www.linkedin.com/in/tshrv/"
+                target="_blank"
+              >
+                <FaLinkedin className="text-3xl" />
+              </a>
+              <a
+                className="btn btn-ghost"
+                href="mailto:tusharsrivastava162@gmail.com"
+                target="_blank"
+              >
+                Get in touch!
+              </a>
+            </div>
           </div>
-          <Footer/>
         </div>
-      </main>
-    </>
-  )
+      </div>
+      <footer className="footer footer-center p-4">
+        <p>© {new Date().getFullYear()} - All Rights Reserved.</p>
+      </footer>
+    </main>
+  );
 }
