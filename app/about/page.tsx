@@ -2,17 +2,18 @@
 
 import Page from "@/components/Page";
 import { Image } from "@heroui/react";
-
+import NextImage from "next/image";
 
 export default function About() {
-    return <Page>
-        <h1 className="text-md font-semibold uppercase">A little about myself</h1>
-        <div className="">
+    return <Page heading="A little about myself">
+        <div>
             <Image
                 alt="Profile picture"
-                className="float-left rounded-xl grayscale-50 m-6 ml-0"
+                as={NextImage}
+                className="float-left rounded-xl grayscale m-8 ml-0"
                 src="/profile.jpg"
-                width="300px"
+                width={300}
+                height={300}
             />
             <p className="text-2xl font-light mt-8">  
                 I'm Tushar Srivastava, a hands-on technologist and software architect from Lucknow, India. My career has spanned government, enterprise, and startup sectors where I've led full-cycle software development—from architecting and coding, to team leadership and client management.
