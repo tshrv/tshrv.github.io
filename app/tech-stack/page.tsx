@@ -12,6 +12,7 @@ import { SiTypescript, SiFastapi, SiPandas, SiScikitlearn, SiStreamlit, SiOctane
 import { DiMongodb, DiRedis } from "react-icons/di";
 import { TbApi, TbAutomation } from "react-icons/tb";
 import { VscAzure } from "react-icons/vsc";
+import { Divider } from "@heroui/react";
 
 interface SkillProps {
     name: string,
@@ -36,8 +37,9 @@ interface SkillSectionProps {
 }
 function SkillSection(props: SkillSectionProps) {
     return (
-        <div className="flex flex-col border border-default rounded p-6">
-            <h1 className="text-sm mb-3 font-semibold text-default-600 underline decoration-1">{props.sectionLabel}</h1>
+        <div className="flex flex-col">
+            <h1 className="text-sm mb-3 font-semibold text-default-600 ">{props.sectionLabel}</h1>
+            <Divider />
             {props.skills.map(data => (<Skill key={data.name} icon={data.icon} name={data.name}/>))}
         </div>
     )
