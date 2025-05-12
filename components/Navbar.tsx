@@ -15,7 +15,7 @@ import {
 
 export const TSLogo = () => {
   return (
-    <a href="#" className="font-bold text-2xl px-2 py-1">TS</a>
+    <Link href="/" className="font-bold text-2xl px-2 py-1 text-black">TS</Link>
   );
 };
 
@@ -23,6 +23,7 @@ export default function AppNavbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
+    "About Me",
     "Services",
     "Portfolio",
     "Tech Stack",
@@ -42,6 +43,11 @@ export default function AppNavbar() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="end">
+        <NavbarItem>
+          <Link color="foreground" href="/about">
+            About Me
+          </Link>
+        </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="#">
             Services
