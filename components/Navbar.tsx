@@ -53,8 +53,10 @@ export default function AppNavbar() {
             Services
           </Link>
         </NavbarItem>
-        <NavbarItem isActive>
-          <Link aria-current="page" href="#">
+        {/* <NavbarItem isActive> */}
+        <NavbarItem>
+          {/* <Link aria-current="page" href="#"> */}
+          <Link color="foreground" href="#">
             Portfolio
           </Link>
         </NavbarItem>
