@@ -18,19 +18,19 @@ export default function Home() {
           <div className="flex flex-col gap-y-4">
             <h1 className="text-5xl font-bold">Tushar Srivastava</h1>
             <p className="text-xl font-bold">
-              Lead Software Engineer at <span> </span>
+              Staff Software Engineer at <span> </span>
               <a
                 className="hover:underline"
-                href="https://neuralix.ai"
+                href="https://www.nagarro.com/en/"
                 target="_blank"
               >
-                Neuralix.AI
+                Nagarro
               </a>
             </p>
             <p className="py-6">
-              Solution Architect and Full-stack Python and React Developer with
-              6 years of experience in backend, frontend and data science
-              technologies, working with core product engineering teams on
+              Software engineer with 7+ years of experience,
+              building full-stack solutions using Python and React,
+              working with core product engineering teams on
               data-intensive products and pipelines, across a diverse set of
               domains.
             </p>
