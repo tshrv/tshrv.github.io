@@ -51,10 +51,10 @@ export default function Home() {
               </a>
               <a
                 className="btn btn-ghost"
-                href="mailto:tusharsrivastava162@gmail.com"
+                href="/tushar-srivastava-resume-july-2026.pdf"
                 target="_blank"
               >
-                Get in touch!
+                Resume
               </a>
             </div>
           </div>
