@@ -28,11 +28,11 @@ export default function Home() {
               </a>
             </p>
             <p className="py-6">
-              Software engineer with 7+ years of experience,
-              building full-stack solutions using Python and React,
-              working with core product engineering teams on
-              data-intensive products and pipelines, across a diverse set of
-              domains.
+              8+ years across backend systems, data engineering, and applied AI, 
+              building production systems end-to-end — from APIs and data pipelines 
+              to multi-agent LLM applications — through architecture, implementation, 
+              and deployment. Combines individual-contributor depth with experience 
+              in leading teams and driving projects from requirements to production.
             </p>
             <div className="flex ">
               <a
